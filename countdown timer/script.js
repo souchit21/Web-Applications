@@ -1,10 +1,10 @@
 const DAYS = document.getElementById("days");
 const HOURS = document.getElementById("hours");
-const  MINUTES= document.getElementById("mins");
+const MINUTES = document.getElementById("mins");
 const SECONDS = document.getElementById("seconds");
 
 
-const newYears = '1 Jan 2023';
+const newYears = '1 Jan 2025';
 
 function countDown(){
     const newYearsDate = new Date(newYears);
